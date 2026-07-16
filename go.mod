@@ -1,3 +1,8 @@
 module github.com/leadpogrommer/my_dummy_go_module
 
 go 1.26.3
+
+require (
+	github.com/samber/lo v1.53.0 // indirect
+	golang.org/x/text v0.22.0 // indirect
+)
