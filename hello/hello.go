@@ -10,5 +10,5 @@ import (
 func GetHello(name string) string {
 
 	// fmt.Println(lo.Map([]byte(name), func(b byte, _ int) byte { return b + 1 }))
-	return fmt.Sprintf("Hello, %s (v1.6.0-alpha.1) %v", name, osvscanner.ErrAPIFailed)
+	return fmt.Sprintf("Hello, %s (v1.11.0-alpha.1) %v", name, osvscanner.ErrAPIFailed)
 }
